@@ -1,0 +1,23 @@
+Face Attendance System - Robustness Evaluation Report
+====================================================
+
+Overall Accuracy: 0.00%
+Total Samples: 6
+
+1. Performance by Condition
+---------------------------
+- low_light: 0.00% (Deviation: +0.00%)
+- masked: 0.00% (Deviation: +0.00%)
+- normal: 0.00% (Deviation: +0.00%)
+
+2. Key Observations
+-------------------
+- Weakest Performing Condition: low_light (0.00%)
+- Strongest Performing Condition: low_light (0.00%)
+- Average Latency: 0.4553 seconds
+- Enhancement Usage Rate: 0.00%
+
+3. Recommendations
+------------------
+- Urgent improvement needed for 'low_light' scenarios.
+- Collect more training data for failure cases.

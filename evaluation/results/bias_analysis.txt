@@ -1,0 +1,17 @@
+Bias Analysis Report
+====================
+
+Comparison: Masked vs Non-Masked
+  masked: 0.00%
+  normal: 0.00%
+  Gap: +0.00%
+  Result: NEGLIGIBLE BIAS
+
+Comparison: Glasses vs Non-Glasses - SKIPPED (Missing data for glasses or normal)
+
+Comparison: Low-Light vs Normal
+  low_light: 0.00%
+  normal: 0.00%
+  Gap: +0.00%
+  Result: NEGLIGIBLE BIAS
+

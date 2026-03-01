@@ -1,0 +1,5 @@
+Condition,Accuracy,Precision,Recall,F1,FPR,FNR,Avg_Latency,Enhancement_Rate
+Overall,0.0,0.0,0.0,0.0,1.0,1.0,0.4553,0.0
+low_light,0.0,0.0,0.0,0.0,1.0,0.0,0.5683,0.0
+masked,0.0,0.0,0.0,0.0,1.0,0.0,0.2844,0.0
+normal,0.0,0.0,0.0,0.0,1.0,1.0,0.4698,0.0

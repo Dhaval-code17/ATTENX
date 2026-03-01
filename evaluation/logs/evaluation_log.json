@@ -1,0 +1,158 @@
+[
+    {
+        "image_path": "evaluation_dataset\\low_light\\test_person_1.jpg",
+        "condition": "low_light",
+        "num_detected": 1,
+        "num_recognized_correctly": 0,
+        "num_false_recognitions": 1,
+        "num_unknown_matched": 0,
+        "latency": 0.5682845115661621,
+        "enhancement_used": false,
+        "matches": [
+            {
+                "bbox": [
+                    208,
+                    178,
+                    352,
+                    390
+                ],
+                "recognized_name": "Lena Smith",
+                "score": 0.0,
+                "expected": "test",
+                "status": "FalseIdentification"
+            }
+        ],
+        "failure_reason": null,
+        "expected_identity": "test"
+    },
+    {
+        "image_path": "evaluation_dataset\\masked\\test_person_1.jpg",
+        "condition": "masked",
+        "num_detected": 1,
+        "num_recognized_correctly": 0,
+        "num_false_recognitions": 1,
+        "num_unknown_matched": 0,
+        "latency": 0.2844102382659912,
+        "enhancement_used": false,
+        "matches": [
+            {
+                "bbox": [
+                    208,
+                    178,
+                    352,
+                    390
+                ],
+                "recognized_name": "Lena Smith",
+                "score": 0.0,
+                "expected": "test",
+                "status": "FalseIdentification"
+            }
+        ],
+        "failure_reason": null,
+        "expected_identity": "test"
+    },
+    {
+        "image_path": "evaluation_dataset\\normal\\PersonA.jpg",
+        "condition": "normal",
+        "num_detected": 1,
+        "num_recognized_correctly": 0,
+        "num_false_recognitions": 0,
+        "num_unknown_matched": 0,
+        "latency": 0.5436232089996338,
+        "enhancement_used": false,
+        "matches": [
+            {
+                "bbox": [
+                    834,
+                    659,
+                    2166,
+                    2561
+                ],
+                "recognized_name": "Unknown",
+                "score": 0.0,
+                "expected": "PersonA",
+                "status": "Missed"
+            }
+        ],
+        "failure_reason": null,
+        "expected_identity": "PersonA"
+    },
+    {
+        "image_path": "evaluation_dataset\\normal\\PersonB.jpg",
+        "condition": "normal",
+        "num_detected": 1,
+        "num_recognized_correctly": 0,
+        "num_false_recognitions": 0,
+        "num_unknown_matched": 0,
+        "latency": 0.7449891567230225,
+        "enhancement_used": false,
+        "matches": [
+            {
+                "bbox": [
+                    1615,
+                    1490,
+                    3399,
+                    3952
+                ],
+                "recognized_name": "Unknown",
+                "score": 0.0,
+                "expected": "PersonB",
+                "status": "Missed"
+            }
+        ],
+        "failure_reason": null,
+        "expected_identity": "PersonB"
+    },
+    {
+        "image_path": "evaluation_dataset\\normal\\PersonC.jpg",
+        "condition": "normal",
+        "num_detected": 1,
+        "num_recognized_correctly": 0,
+        "num_false_recognitions": 0,
+        "num_unknown_matched": 0,
+        "latency": 0.4147195816040039,
+        "enhancement_used": false,
+        "matches": [
+            {
+                "bbox": [
+                    1149,
+                    908,
+                    2569,
+                    2883
+                ],
+                "recognized_name": "Unknown",
+                "score": 0.0,
+                "expected": "PersonC",
+                "status": "Missed"
+            }
+        ],
+        "failure_reason": null,
+        "expected_identity": "PersonC"
+    },
+    {
+        "image_path": "evaluation_dataset\\normal\\test_person_1.jpg",
+        "condition": "normal",
+        "num_detected": 1,
+        "num_recognized_correctly": 0,
+        "num_false_recognitions": 1,
+        "num_unknown_matched": 0,
+        "latency": 0.17576956748962402,
+        "enhancement_used": false,
+        "matches": [
+            {
+                "bbox": [
+                    208,
+                    178,
+                    352,
+                    390
+                ],
+                "recognized_name": "Lena Smith",
+                "score": 0.0,
+                "expected": "test",
+                "status": "FalseIdentification"
+            }
+        ],
+        "failure_reason": null,
+        "expected_identity": "test"
+    }
+]
